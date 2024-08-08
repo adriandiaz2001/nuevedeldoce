@@ -1,4 +1,9 @@
 {
+  "homepage": "https://adriandiaz2001.github.io/nuevedeldoce/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "name": "nuevedeldoce",
   "version": "0.1.0",
   "private": true,
